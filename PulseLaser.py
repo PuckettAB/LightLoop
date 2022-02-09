@@ -9,8 +9,8 @@ GPIO.setup(8, GPIO.OUT, initial=GPIO.LOW)   # Set pin 8 to be an output pin and 
 
 while True: # Run forever
     GPIO.output(8, GPIO.HIGH) # Turn on
-    sleep(.01)                  # Sleep for 1 second
+    sleep(.01)                  # Sleep for .01 second
     GPIO.output(8, GPIO.LOW)  # Turn off
-    sleep(.01)                  # Sleep for 1 second
+    sleep(.01)                  # Sleep for .01 second
 
     
