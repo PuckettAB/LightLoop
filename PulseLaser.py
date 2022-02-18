@@ -2,6 +2,8 @@
 #Pulse light: https://raspberrypihq.com/making-a-led-blink-using-the-raspberry-pi-and-python/
 
 from gpiozero import LED
+from time import sleep
+
 led = LED(2) #5 volt output
 
 
