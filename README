@@ -1,1 +1,6 @@
+
+Intralipidgraphs.m compiles excel data from a spectrometer and outputs graphical representations
+main.c interfaces the MSP430 with the light loop
 pulseDense.py is used to create the data type that will store all the data received from the receivers
+pulseDense.py and pulseLaser.py are obsolete
+
